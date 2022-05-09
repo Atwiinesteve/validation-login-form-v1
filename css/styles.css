@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+*,
+*::before,
+*:after {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+:-ms-input-placeholder {
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+::-ms-input-placeholder {
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+::placeholder {
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+h1.logged-in {
+  padding: 2rem;
+  color: black;
+  background-color: white;
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../images/david-marcu-78A265wPiO4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  position: relative;
+  width: 450px;
+  height: auto;
+  background: #dadada54;
+  border-radius: 5px;
+}
+
+.label {
+  padding: 20px 130px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #130f40;
+}
+
+.email--area,
+.password--area {
+  margin-top: 1.2rem;
+}
+
+.login_form {
+  padding: 20px 40px;
+}
+
+.login_form .font {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 5px 0px;
+}
+
+.login_form input {
+  height: 40px;
+  width: 365px;
+  padding: 0 5px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid silver;
+}
+
+.login_form input[type="text"],
+.login_form input[type="password"],
+.login_form input[type=password],
+.login_form input[type=text] {
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
+.login_form button {
+  margin: 45px 0 30px 0;
+  height: 45px;
+  width: 365px;
+  font-size: 20px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  background: #1a237e;
+  border-radius: 3px;
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.login_form button:hover {
+  background: #0e1558;
+}
+
+.login_form .email_error,
+.login_form .password_error {
+  padding: 7px;
+  width: 365px;
+  font-size: 14px;
+  color: #c62828;
+  background: #eeb1b1;
+  border: 1px solid red;
+  text-align: center;
+  display: none;
+}

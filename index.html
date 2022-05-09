@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="label">User Login</h1>
+        <form class="login_form" method="post" name="form" action="./home.html">
+            <div class="email--area">
+                <div class="font email">Email Address</div>
+                <input type="text" name="email" id="email" placeholder="Email Address" autocomplete="off">
+                <div class="email_error">Please provide a valid email address.</div>
+            </div>
+            <div class="password--area">
+                <div class="font password">Password</div>
+                <input type="password" name="password" id="password" placeholder="Password" autocomplete="off">
+                <div class="password_error">Password atlest 9 characters.</div>
+            </div>
+
+
+            <button type="submit" class="submit">Login</button>
+        </form>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
